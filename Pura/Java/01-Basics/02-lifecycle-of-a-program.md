@@ -194,7 +194,7 @@ Se reserva memoria para los campos `static` y **se les asignan sus valores por d
 |---|---|
 | `int`, `short`, `byte`, `long` | `0` |
 | `float`, `double` | `0.0` |
-| `char` | `' '` |
+| `char` | `'\u0000'` |
 | `boolean` | `false` |
 | cualquier referencia | `null` |
 
