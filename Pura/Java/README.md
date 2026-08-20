@@ -17,10 +17,11 @@ Los ejemplos asumen **Java 17+** (LTS). Cuando algo depende de una versión conc
 | 04 | [Variables and Scopes](01-Basics/04-variables-and-scopes.md) | ✅ |
 | 05 | [Type Casting](01-Basics/05-type-casting.md) | ✅ |
 | 06 | [Strings and Methods](01-Basics/06-strings-and-methods.md) | ✅ |
-| 07 | Operadores | ⬜ |
-| 08 | Control de flujo | ⬜ |
-| 09 | Arrays | ⬜ |
-| 10 | Métodos y parámetros | ⬜ |
+| 07 | [Math Operations](01-Basics/07-math-operations.md) | ✅ |
+| 08 | Operadores lógicos, relacionales y bitwise | ⬜ |
+| 09 | Control de flujo | ⬜ |
+| 10 | Arrays | ⬜ |
+| 11 | Métodos y parámetros | ⬜ |
 
 ### `02-POO`
 Clases y objetos · Encapsulación · Herencia vs composición · Polimorfismo · Interfaces · Clases abstractas · Records · Enums · Sealed classes
