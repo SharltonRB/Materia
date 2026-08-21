@@ -19,8 +19,8 @@ Los ejemplos asumen **Java 17+** (LTS). Cuando algo depende de una versión conc
 | 06 | [Strings and Methods](01-Basics/06-strings-and-methods.md) | ✅ |
 | 07 | [Math Operations](01-Basics/07-math-operations.md) | ✅ |
 | 08 | [Logical, Relational and Bitwise Operators](01-Basics/08-logical-relational-bitwise-operators.md) | ✅ |
-| 09 | Control de flujo | ⬜ |
-| 10 | Arrays | ⬜ |
+| 09 | [Arrays](01-Basics/09-arrays.md) | ✅ |
+| 10 | Control de flujo | ⬜ |
 | 11 | Métodos y parámetros | ⬜ |
 
 ### `02-POO`
