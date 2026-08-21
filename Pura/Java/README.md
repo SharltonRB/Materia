@@ -18,7 +18,7 @@ Los ejemplos asumen **Java 17+** (LTS). Cuando algo depende de una versión conc
 | 05 | [Type Casting](01-Basics/05-type-casting.md) | ✅ |
 | 06 | [Strings and Methods](01-Basics/06-strings-and-methods.md) | ✅ |
 | 07 | [Math Operations](01-Basics/07-math-operations.md) | ✅ |
-| 08 | Operadores lógicos, relacionales y bitwise | ⬜ |
+| 08 | [Logical, Relational and Bitwise Operators](01-Basics/08-logical-relational-bitwise-operators.md) | ✅ |
 | 09 | Control de flujo | ⬜ |
 | 10 | Arrays | ⬜ |
 | 11 | Métodos y parámetros | ⬜ |
