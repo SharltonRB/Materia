@@ -25,7 +25,17 @@ Los ejemplos asumen **Java 17+** (LTS). Cuando algo depende de una versión conc
 | 12 | [Methods and Parameters](01-Basics/12-methods-and-parameters.md) | ✅ |
 
 ### `02-POO`
-Clases y objetos · Encapsulación · Herencia vs composición · Polimorfismo · Interfaces · Clases abstractas · Records · Enums · Sealed classes
+| # | Tema | Estado |
+|---|---|---|
+| 01 | [Classes and Objects](02-POO/01-classes-and-objects.md) | ✅ |
+| 02 | Encapsulation | ⬜ |
+| 03 | Inheritance vs Composition | ⬜ |
+| 04 | Polymorphism | ⬜ |
+| 05 | Interfaces | ⬜ |
+| 06 | Abstract Classes | ⬜ |
+| 07 | Records | ⬜ |
+| 08 | Enums | ⬜ |
+| 09 | Sealed Classes | ⬜ |
 
 ### `03-Tipos-y-Genericos`
 Genéricos · Wildcards · Type erasure · `var` · Autoboxing · Casting
