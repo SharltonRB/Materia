@@ -22,7 +22,7 @@ Los ejemplos asumen **Java 17+** (LTS). Cuando algo depende de una versión conc
 | 09 | [Arrays](01-Basics/09-arrays.md) | ✅ |
 | 10 | [Conditionals](01-Basics/10-conditionals.md) | ✅ |
 | 11 | [Loops](01-Basics/11-loops.md) | ✅ |
-| 12 | Métodos y parámetros | ⬜ |
+| 12 | [Methods and Parameters](01-Basics/12-methods-and-parameters.md) | ✅ |
 
 ### `02-POO`
 Clases y objetos · Encapsulación · Herencia vs composición · Polimorfismo · Interfaces · Clases abstractas · Records · Enums · Sealed classes
