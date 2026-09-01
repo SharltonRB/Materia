@@ -20,8 +20,9 @@ Los ejemplos asumen **Java 17+** (LTS). Cuando algo depende de una versión conc
 | 07 | [Math Operations](01-Basics/07-math-operations.md) | ✅ |
 | 08 | [Logical, Relational and Bitwise Operators](01-Basics/08-logical-relational-bitwise-operators.md) | ✅ |
 | 09 | [Arrays](01-Basics/09-arrays.md) | ✅ |
-| 10 | Control de flujo | ⬜ |
-| 11 | Métodos y parámetros | ⬜ |
+| 10 | [Conditionals](01-Basics/10-conditionals.md) | ✅ |
+| 11 | Loops | ⬜ |
+| 12 | Métodos y parámetros | ⬜ |
 
 ### `02-POO`
 Clases y objetos · Encapsulación · Herencia vs composición · Polimorfismo · Interfaces · Clases abstractas · Records · Enums · Sealed classes
