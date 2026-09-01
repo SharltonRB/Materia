@@ -1562,10 +1562,18 @@ Funciona en los tests (edades < 128) y falla con datos reales. Ver [sección 22.
 ### 27.4. `double` para dinero
 
 ```java
-double precio = 19.99;
-double total = precio * 3;            // 59.96999999999999
-int centavos = (int) (total * 100);   // 5996, no 5997
+double precio = 0.29;
+int centavos = (int) (precio * 100);   // 28, no 29 ← el centavo desaparece
+
+double otro = 4.35;
+int c2 = (int) (otro * 100);           // 434, no 435
+
+double vuelto = 2.00 - 1.10;           // 0.8999999999999999
 ```
+
+El literal parece inocente y no hay ninguna operación rara: basta con que el número no sea representable en base 2 para que el truncamiento se lleve un centavo. Multiplicado por millones de transacciones, es un descuadre contable.
+
+> **Cuidado con el ejemplo que circula por todas partes.** Muchos textos —y una versión anterior de este documento— ilustran esto con `double total = 19.99 * 3`, afirmando que da `59.96999999999999` y que `(int)(total * 100)` da `5996`. **Ejecutado en JDK 25 da `59.97` y `5997`**: ese caso concreto *no* pierde nada, porque el error de representación no llega a cruzar el límite del truncamiento. El problema del `double` para dinero es muy real, pero hay que demostrarlo con un caso que falle de verdad; si no, quien lo ejecute concluirá —con razón— que la advertencia era falsa. Coherente con esto, la [sección 44](07-math-operations.md#44-la-alternativa-enteros-de-centavos) del capítulo [07 - Math Operations](07-math-operations.md) ya calcula ese mismo importe como `5997`.
 
 Usá `BigDecimal` o enteros de centavos. Sin excepciones.
 
