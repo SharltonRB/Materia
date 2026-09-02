@@ -31,7 +31,7 @@ Cubre las dos cajas del roadmap — *Basics of OOP* y *More about OOP* — en un
 |---|---|---|
 | 01 | [Classes and Objects](02-POO/01-classes-and-objects.md) | ✅ |
 | 02 | [Attributes and Methods](02-POO/02-attributes-and-methods.md) | ✅ |
-| 03 | Access Specifiers | ⬜ |
+| 03 | [Access Specifiers](02-POO/03-access-specifiers.md) | ✅ |
 | 04 | Static Keyword | ⬜ |
 | 05 | Final Keyword | ⬜ |
 | 06 | Initializer Blocks and Object Lifecycle | ⬜ |
